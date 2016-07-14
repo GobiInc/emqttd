@@ -32,8 +32,8 @@
 	path = plugins/emqttd_auth_http
 	url = https://github.com/emqtt/emqttd_auth_http.git
 [submodule "plugins/EmqttdAuthDynamoDB"]
-	path = plugins/EmqttdAuthDynamoDB
+	path = plugins/emqttd_auth_dynamodb
 	url = git@github.com:GobiInc/EmqttdAuthDynamoDB.git
 [submodule "plugins/EmqttdTranslate"]
-	path = plugins/EmqttdTranslate
+	path = plugins/emqttd_translate
 	url = git@github.com:GobiInc/EmqttdTranslate.git
