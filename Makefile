@@ -50,7 +50,7 @@ dist: rel plugins
 
 PLT  = $(BASE_DIR)/.emqttd_dialyzer.plt
 APPS = erts kernel stdlib sasl crypto ssl os_mon syntax_tools \
-	   public_key mnesia inets compiler
+	   public_key mnesia inets compiler current
 
 check_plt: compile
 	dialyzer --check_plt --plt $(PLT) --apps $(APPS) \
