@@ -291,6 +291,10 @@
         {busy_dist_port, true}
 
     ]}
- ]}
+ ]},
+{raven, [
+   {dsn, "https://4bab446267754523b6810f99b66d8764:cc12b416a95f43fc932896fe54c1f27c@app.getsentry.com/90616"},
+   {error_logger, true}  % Set to true in order to install the standard error logger
+]}
 ].
 
