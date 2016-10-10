@@ -1,0 +1,6 @@
+[submodule "plugins/auth_dynamo_db"]
+	path = plugins/auth_dynamo_db
+	url = git@github.com:GobiInc/EmqttdAuthDynamoDB.git
+[submodule "plugins/translate"]
+	path = plugins/translate
+	url = git@github.com:GobiInc/EmqttdTranslate.git
